@@ -5,45 +5,45 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="min/plugin-min.css" type="text/css" rel="stylesheet">
-    <link href="min/custom-min.css" type="text/css" rel="stylesheet" >
-    <link rel="stylesheet" href="css\laptop.css">
+    <!-- <link href="min/custom-min.css" type="text/css" rel="stylesheet" > -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
 
-    <link rel="stylesheet" href="css\ram.css">
- 
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <!-- <link rel="stylesheet" href="css\laptop.css"> -->
+    <link rel="stylesheet" href="css/lap.css">
     <title>Laptop</title>
 </head>
 <body>
 
-    <nav class="cd-dropdown fixed dropdown-is-active">
-        
-        <ul class="cd-dropdown-content">
-            <li>
-                <a href="index.html" class="" style="text-align: center;">
-                    <i class="icon-ice-drinks-glass-fl-1"></i> Home
-                </a>
-            </li>
-            <br>
-            <li>
-                <a href="ram.html" class="">
-                    <i class="icon-clipboard-fl-1"></i> RAM
-                </a>
-            </li>
-            
-            
-            <li>
-                <a href="harddisk.html" class="">
-                    <i class="icons"></i> HardDisk
-                </a>
-            </li>
+    <header class="header">
 
-        </ul>
-        <!-- /Root Nav -->
-    </nav>
+        <div id="menu-btn" class="fas fa-bars"></div>
+    
+        <a href="#" class="logo"> <span>AB</span>Laptop </a>
+    
+        <nav class="navbar">
+            <a href="#home">home</a>
+            <a href="laptop.html">Laptop</a>
+            <a href="ram.html">Ram</a>
+            <a href="harddisk.html">HardDisk</a>
+            <a href="#services">services</a>
+            <a href="#contact">contact</a>
+            <a href="order.html">Order</a>
+        </nav>
+    
+        <div id="login-btn">
+            <a href="register.html"><button class="btn">login</button></a>
+            <i class="far fa-user"></i>
+        </div>
+    
+    </header> 
 
 
     <div class="section scrollspy" id="work" style="margin-left: 10%;">
-        <div class="container" >
-            <h2 class="header text_b">All Laptop </h2>
+        
+            <h2  style="text-align: center;">All Laptop </h2>
+            <div class="container" >
             <div class="row">
                 <div class="col s8 m3" id="Hp">
                     <div class="card">
@@ -835,7 +835,8 @@
         </div>
     </div>
     
-
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+    <script src="js/script.js"></script>
     <script src="min/plugin-min.js"></script>
     <script src="min/custom-min.js"></script>
 </body>
