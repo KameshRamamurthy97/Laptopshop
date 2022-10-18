@@ -9,6 +9,20 @@ var subjectObject = {
       "HardDisk": ["HardDisk 1", "HardDisk 2", "HardDisk 3"]
     }
   }
+  function myFunction() {
+    var checkBox = document.getElementById("myCheck");
+    var text = document.getElementById("text");
+    var checkBox1 = document.getElementById("myCheck");
+    var text1 = document.getElementById("text1");
+    if (checkBox.checked == true){
+      text.style.display = "block";
+    } 
+    if (checkBox1.checked == true){
+      text1.style.display = "block";
+    } else {
+       text.style.display = "none";
+    }
+  }
   window.onload = function() {
     var subjectSel = document.getElementById("subject");
     var topicSel = document.getElementById("topic");
